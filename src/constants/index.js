@@ -1,11 +1,7 @@
 const navLinks = [
   {
-    name: "Work",
+    name: "I am",
     link: "#work",
-  },
-  {
-    name: "Experience",
-    link: "#experience",
   },
   {
     name: "Skills",
@@ -114,34 +110,34 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React Dev",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python Dev",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Frontend Dev",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Interactive Dev",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
+    name: "Game Dev",
+    modelPath: "/models/unreal_engine_logo (1).glb",
+    scale: 1,
+    rotation: [0, -Math.PI / 2, 0],
   },
 ];
 
@@ -248,18 +244,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    url:"https://www.instagram.com/dahal.siddhant/"
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+     url:"https://www.facebook.com/sirus.dahal"
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    url:"https://x.com/hetaudian"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url:"https://www.linkedin.com/in/siddhant-dahal-4b36322a0/"
   },
 ];
 

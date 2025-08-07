@@ -165,10 +165,10 @@ section {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+        @apply xl:h-[110vh] md:h-[50vh] h-200 relative;
 
         img {
-          @apply w-full h-full object-cover rounded-xl absolute inset-0;
+          @apply w-full h-full object-cover rounded-full absolute inset-0;
         }
       }
 
@@ -187,7 +187,7 @@ section {
 
     .project-list-wrapper {
       @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
-    }
+
       .image-wrapper {
         @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
       }
@@ -320,7 +320,7 @@ section {
       }
     }
   }
-
+}
 
 /* Hero text slider starts */
 .slide {

@@ -1,4 +1,4 @@
-import { OrbitControls } from "@react-three/drei";
+import { Float, OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 import React from "react";
@@ -21,14 +21,16 @@ const HeroExperience = () => {
         minPolarAngle={Math.PI / 5}
         maxPolarAngle={Math.PI / 2}
       />
+      <Float floatIntensity={0.1}>
 
       <group
         scale={isMobile ? 1.6 : 2}
         position={[0, 0, 0]}
         rotation={[0.5, 10, 0]}
-      >
+        >
         <Space />
       </group>
+        </Float>
     </Canvas>
   );
 };

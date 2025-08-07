@@ -5,6 +5,7 @@ import HeroExperience from "../components/HeroModels/HeroExperience";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
+import TitleHeader from "../components/TitleHeader";
 
 export const Hero = () => {
   useGSAP(() => {
@@ -28,7 +29,7 @@ export const Hero = () => {
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="background" />
       </div>
-
+         
       <div className="hero-layout">
         {/*Left : Hero content*/}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5 gap-7">
