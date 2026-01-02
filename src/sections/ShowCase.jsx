@@ -50,12 +50,19 @@ const ShowCase = () => {
         sub="..."
          />
             <div className='app-showcase'>
-          <div className='first-project-wrapper'>
+          <div className='projects-grid grid grid-cols-1 md:grid-cols-2 gap-8'>
             <ProjectShowcase
            title="Kera"
     description="A social media platform I built during the Social Media ban in Nepal"
     image="/images/kera.png"
     link="https://kera-tau.vercel.app"
+         />
+            <ProjectShowcase
+           title="Mithila Bazar"
+    description="A full-stack e-commerce website I built, featuring modern design and complete shopping functionality"
+    image="/mithilabazar.png"
+    link="https://www.mithilabazar.shop"
+    theme="blue"
          />
           </div>
     </div>
